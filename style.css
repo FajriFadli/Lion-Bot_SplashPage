@@ -1,0 +1,129 @@
+html, body, .main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ====================================================================== */
+/* Intro */
+.intro {
+    background-color: #E65100;
+    background-image: url("lionbot-background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -100px; 
+    color: #FFF;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.intro-text {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 80%;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+.intro-text h1 {
+    font-size: 60px;
+}
+.intro-text a {
+    display: inline-table;
+}
+
+
+
+/* ====================================================================== */
+/* Sample */
+
+.sample {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#sample-screenshot {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+
+/* ====================================================================== */
+/* How to */
+.how-to {
+    background-color: #FBFBFB;
+    background-image: url("lionbot-background.png")/*, #FAFAFA*/;    /*bug: background image not mobile responsive*/
+    /*background-blend-mode: lighten;*/
+    background-size: auto;
+    padding-left:1em ;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 940px 0px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+.how-to-text {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 1em;
+}
+
+.how-to-text h2 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.how-to-text p {
+    font-size: 1.3em;
+    line-height: 90%;
+}
+.how-to code {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+/* ====================================================================== */
+/* Credits */
+
+.credits {
+    color: #fafafa;
+    background-color: #212121;
+    padding-top: 1.15em;
+    padding-bottom: 1.15em;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.credits-text .ref {
+    font-size: 0.7em;
+}
+
+.credits-text #by{
+    color: #FFB300;
+}
+
+.credits-text {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 1em;
+}
+
+.credits-text a {
+    color: #FFB300;
+}
+
+.credits-text a:hover {
+    color: #FF6F00;
+    text-decoration: none;
+}

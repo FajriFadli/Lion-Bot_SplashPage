@@ -4,29 +4,32 @@
     <title>Lion-bot for Slack</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c89ee39e72.js"></script>
 
 </head>
 
 <body>
-    <div class = "container-fluid">
         <div class = "main">
             
             <!-- intro starts here -->
             <div class = "intro">
-                <h1>Lion-bot</h1>
-                <p>Do you and your team use Slack?</p>
-                <p>Now you can get some good jokes delivered to you right inside the app.</p>
-                <br>
-                <p>The Lion-bot has compiled jokes from more than 1 website,</p>
-                <p>and it can send you a joke whenever you ask it to.</p>
-                <br>
-                <p>You can smile, or act like a grumpy cat, it’s all up to you.</p>
-                <br>
-                <p>
-                    <a href="REPLACE URL HERE">
-                        <img src="add-to-slack.png"/>
-                    </a>
-                </p>
+                <div class = "intro-text">
+                    <h1>Lion-bot</h1>
+                    <p>Do you and your team use Slack?</p>
+                    <p>Now you can get some good jokes delivered to you right inside the app.</p>
+                    <br>
+                    <p>The Lion-bot has compiled jokes from more than 1 website,</p>
+                    <p>and it can send you a joke whenever you ask it to.</p>
+                    <br>
+                    <p>You can smile, or act like a grumpy cat, it's all up to you.</p>
+                    <br>
+                    <p>
+                        <a href="https://slack.com/oauth/authorize?scope=incoming-webhook,commands&client_id=143548562982.149622839286">
+                            <img src="add_to_slack.png" class="img-responsive"/>
+                        </a>
+                    </p>
+                </div>
             </div>
             <!-- intro ends here -->
             
@@ -40,24 +43,28 @@
             
             <!-- how to section starts here -->
             <div class = "how-to">
-                <h2>Usage</h2>
-                <p>Use a button above to install into your Slack team.</p>
-                <br>
-                <p><code>/lion-bot</code>shows a random item</p>
-                <p><code>/lion-bot [id]</code> shows the item with the specified id (0 to ...)</p>
-                <p><code>/lion-bot filtered</code> shows a SFW random item</p>
-                <p><code>/lion-bot filtered [id]</code> shows the SFW item with the specified id (0 to ...)</p>
-                <p><code>/lion-bot help</code> shows list of commands</p>
+                <div class= "how-to-text">
+                    <h2>Usage</h2>
+                    <p>Use a button above to install into your Slack team.</p>
+                    <br>
+                    <p><code>/lion-bot</code><em>shows a random item</em></p>
+                    <p><code>/lion-bot [id]</code> <em>shows the item with the specified id (0 to ...)</em></p>
+                    <p><code>/lion-bot filtered</code> <em>shows a SFW random item</em></p>
+                    <p><code>/lion-bot filtered [id]</code> <em>shows the SFW item with the specified id (0 to ...)</em></p>
+                    <p><code>/lion-bot help</code> shows list of commands</em></p>
+                </div>
             </div>
             <!-- how to section ends here -->
             
             <!-- credits section stars here -->
             <div class = "credits">
-                <p>Brought to you by [INSERT TEAM NAME HERE]</p>
+                <div class = "credits-text">
+                    <p>Brought to you by <strong id="by"><i class="fa fa-code" aria-hidden="true"></i> Futuristic Flamingos</strong></p>
+                    <p class="ref">Cloned from <a href="https://lion-bot.herokuapp.com/">Lion-bot splash page</a></p>
+                </div>
             </div>
             <!-- credits section ends here -->
     
         </div>
-    </div>
 </body>
 </html>
